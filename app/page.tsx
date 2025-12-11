@@ -296,9 +296,7 @@ export default function Home() {
   };
 
   const handleCopyArea = (area: KeyArea) => {
-    const content = Array.isArray((area as any).descItems)
-      ? [area.title, ...(area as any).descItems].join("\n")
-      : `${area.title}\n${area.desc}`;
+    const content = [area.title, ...area.descItems].join("\n");
 
     if (typeof navigator !== "undefined" && navigator.clipboard) {
       navigator.clipboard.writeText(content);
@@ -459,25 +457,15 @@ export default function Home() {
                 >
                   {area.title}
                 </h3>
-                {Array.isArray((area as any).descItems) ? (
-                  <ul
-                    className={`mt-3 list-disc space-y-2 pl-4 text-sm leading-relaxed ${
-                      isColorful ? "text-white/80" : "text-slate-600"
-                    }`}
-                  >
-                    {(area as any).descItems.map((item: string) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p
-                    className={`mt-3 text-sm leading-relaxed ${
-                      isColorful ? "text-white/80" : "text-slate-600"
-                    }`}
-                  >
-                    {area.desc}
-                  </p>
-                )}
+                <ul
+                  className={`mt-3 list-disc space-y-2 pl-4 text-sm leading-relaxed ${
+                    isColorful ? "text-white/80" : "text-slate-600"
+                  }`}
+                >
+                  {area.descItems.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
                 <button
                   onClick={() => handleCopyArea(area as KeyArea)}
                   className={`mt-4 inline-flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-semibold transition ${
