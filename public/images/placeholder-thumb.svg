@@ -1,0 +1,27 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="50%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#ffffff" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="32" fill="url(#grad)"/>
+  <rect width="1600" height="900" rx="32" fill="url(#dots)"/>
+  <rect x="120" y="180" width="1360" height="540" rx="28" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.2"/>
+  <circle cx="320" cy="360" r="120" fill="#FBBF24" opacity="0.28"/>
+  <circle cx="1280" cy="520" r="160" fill="#0EA5E9" opacity="0.22"/>
+  <text x="50%" y="46%" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" opacity="0.95">
+    OnSafetyTip.com
+  </text>
+  <text x="50%" y="57%" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" opacity="0.78">
+    Helpful safety guide preview image
+  </text>
+</svg>

@@ -13,8 +13,7 @@ import {
   UserCheck,
 } from "lucide-react";
 
-const heroImage =
-  "/index/man.webp";
+const heroImage = "/index/hero/man.webp";
 
 const illustratedTips = [
   {
@@ -247,10 +246,20 @@ const safetyCards = [
   },
 ];
 
-const quickTips = [
+type QuickTip = {
+  audience: string;
+  title: string;
+  image: string;
+  alt: string;
+  items: string[];
+};
+
+const quickTips: QuickTip[] = [
   {
-    title: "Safety Tips for you chindren",
-    audience: "for kid",
+    audience: "for Kids",
+    title: "Safety Tips for Children",
+    image: "/index/quicktips/1.webp",
+    alt: "Safety tips for children illustration",
     items: [
       "Do not talk to strangers online without telling a parent or trusted adult.",
       "Ask before downloading new apps or games.",
@@ -260,8 +269,10 @@ const quickTips = [
     ],
   },
   {
-    title: "Online Safety Tips for Parents",
     audience: "for Parents",
+    title: "Online Safety Tips for Parents",
+    image: "/index/quicktips/2.webp",
+    alt: "Parents reviewing online safety together",
     items: [
       "Set simple family rules about screen time, social media, and games.",
       "Keep communication open so kids feel safe telling you about problems.",
@@ -271,8 +282,10 @@ const quickTips = [
     ],
   },
   {
-    title: "Online Safety Tips for Students",
     audience: "Students & Teens Safety",
+    title: "Online Safety Tips for Students",
+    image: "/index/quicktips/3.webp",
+    alt: "Students practicing online safety",
     items: [
       "Use school email and personal email for different purposes.",
       "Be careful when sharing homework files or links in public groups.",
@@ -282,6 +295,50 @@ const quickTips = [
     ],
   },
 ];
+
+function QuickTipCard({ sheet }: { sheet: QuickTip }) {
+  const [showText, setShowText] = useState(false);
+
+  return (
+    <div
+      className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-0 shadow-sm transition focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+      onMouseEnter={() => setShowText(true)}
+      onMouseLeave={() => setShowText(false)}
+      onFocus={() => setShowText(true)}
+      onBlur={() => setShowText(false)}
+    >
+      {!showText ? (
+        <div className="relative w-full overflow-hidden rounded-2xl">
+          <div className="aspect-[3/4]">
+            <img
+              src={sheet.image}
+              alt={sheet.alt}
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <span className="sr-only">{sheet.title}</span>
+        </div>
+      ) : (
+        <div className="flex h-full flex-col rounded-2xl border border-transparent p-6">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+            <Shield className="h-4 w-4 text-brand-orange" />
+            {sheet.audience}
+          </div>
+          <h3 className="mt-3 text-lg font-semibold text-slate-900">{sheet.title}</h3>
+          <ol className="mt-4 space-y-2 list-decimal pl-5 text-sm text-slate-600">
+            {sheet.items.map((tip, idx) => (
+              <li key={`${sheet.title}-${idx}`} className="leading-relaxed">
+                {tip}
+              </li>
+            ))}
+          </ol>
+          <p className="mt-auto text-xs text-slate-500">Click to return to image</p>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Home() {
   const [copiedArea, setCopiedArea] = useState<string | null>(null);
@@ -348,30 +405,8 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-          {quickTips.map((sheet) => (
-            <div
-              key={sheet.title}
-              className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-            >
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-                <Shield className="h-4 w-4 text-brand-orange" />
-                {sheet.audience}
-              </div>
-              <h3 className="mt-3 text-lg font-semibold text-slate-900">
-                {sheet.title}
-              </h3>
-              <ol className="mt-4 space-y-2 list-decimal pl-5 text-sm text-slate-600">
-                {sheet.items.map((tip, idx) => (
-                  <li key={`${sheet.title}-${idx}`} className="leading-relaxed">
-                    {tip}
-                  </li>
-                ))}
-              </ol>
-              <button className="mt-auto self-center inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-xs font-semibold leading-none text-slate-700 transition hover:bg-slate-50 hover:text-brand-orange min-w-[110px]">
-                Copy
-                <Copy className="h-4 w-4" />
-              </button>
-            </div>
+          {quickTips.map((sheet, idx) => (
+            <QuickTipCard key={`${sheet.audience}-${idx}`} sheet={sheet} />
           ))}
         </div>
       </section>
