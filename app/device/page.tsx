@@ -60,6 +60,12 @@ export default function DevicePage() {
           Understanding basic device security principles helps users protect their data before problems
           occur.
         </p>
+        <img
+          src="/pillar-page/Device/Computer_800.webp"
+          alt="Illustration of a secured computer and device setup"
+          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
+          loading="lazy"
+        />
         <p className={subheadingClass}>Key Points</p>
         <ul style={listStyle}>
           <li style={listItemStyle}>
@@ -102,6 +108,12 @@ export default function DevicePage() {
           Mobile devices are frequently used on the go, increasing exposure to public networks and
           physical risks.
         </p>
+        <img
+          src="/pillar-page/Device/Laptop_800.webp"
+          alt="Illustration of securing a mobile or laptop device"
+          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
+          loading="lazy"
+        />
         <p className={subheadingClass}>Key Points</p>
         <ul style={listStyle}>
           <li style={listItemStyle}>
@@ -185,6 +197,12 @@ export default function DevicePage() {
         <p className="text-lg leading-8 text-slate-700">
           Keeping software up to date is one of the most effective ways to protect devices.
         </p>
+        <img
+          src="/pillar-page/Device/Software%20Updates_800.webp"
+          alt="Illustration emphasizing software updates and patches"
+          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
+          loading="lazy"
+        />
         <p className={subheadingClass}>Key Points</p>
         <ul style={listStyle}>
           <li style={listItemStyle}>
@@ -226,6 +244,12 @@ export default function DevicePage() {
         <p className="text-lg leading-8 text-slate-700">
           Public Wi-Fi networks can expose devices to monitoring and data interception.
         </p>
+        <img
+          src="/pillar-page/Device/Public%20Wi-Fi_800.webp"
+          alt="Illustration about safe practices on public Wi-Fi"
+          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
+          loading="lazy"
+        />
         <p className={subheadingClass}>Key Points</p>
         <ul style={listStyle}>
           <li style={listItemStyle}>
