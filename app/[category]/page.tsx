@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
-import { CATEGORIES, REVALIDATE_24H, getCategoryBySlug, getPost } from "@/lib/content";
+import { CATEGORIES, getCategoryBySlug, getPost } from "@/lib/content";
 
-export const revalidate = REVALIDATE_24H;
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   return CATEGORIES.map((category) => ({ category: category.slug }));

@@ -1,15 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  REVALIDATE_24H,
-  getAllPosts,
-  getCategoryBySlug,
-  getPost,
-  getPostsByCategory,
-} from "@/lib/content";
+import { getAllPosts, getCategoryBySlug, getPost, getPostsByCategory } from "@/lib/content";
 import TableOfContents from "./table-of-contents";
 
-export const revalidate = REVALIDATE_24H;
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   const posts = await getAllPosts();
