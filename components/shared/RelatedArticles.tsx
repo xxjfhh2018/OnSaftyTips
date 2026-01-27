@@ -1,31 +1,30 @@
-import Link from "next/link";
-
 export type RelatedArticle = {
   title: string;
   href: string;
   description?: string;
   date?: string;
+  thumbnail?: string;
 };
 
-type RelatedArticlesProps = {
+type Props = {
   title?: string;
   items: RelatedArticle[];
 };
 
-export function RelatedArticles({
-  title = "Related Articles",
-  items,
-}: RelatedArticlesProps) {
+export function RelatedArticles({ title = "Related Articles", items }: Props) {
   if (!items?.length) return null;
 
   return (
-    <section className="mt-10 rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
+    <section
+      aria-label="Related Articles"
+      className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm"
+    >
       <div className="flex items-center justify-between gap-4">
-        <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
+        <h2 className="text-lg font-semibold text-slate-900">{title}</h2>
       </div>
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         {items.map((item) => (
-          <Link
+          <a
             key={item.href}
             href={item.href}
             className="group flex h-full flex-col rounded-xl border border-slate-100 bg-slate-50/60 p-4 transition hover:border-brand-orange/50 hover:bg-white"
@@ -44,7 +43,7 @@ export function RelatedArticles({
                 {item.date}
               </p>
             ) : null}
-          </Link>
+          </a>
         ))}
       </div>
     </section>

@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Online Safety Tips & Anti-Scam Guide | OnSafetyTip.com",
+  title: "Online Safety Tips: Simple Guides to Stay Safe Online | OnSafetyTip.com",
   description:
-    "OnSafetyTip provides clear, simple online safety tips to help you avoid scams, protect your privacy, and stay safe online. Trusted guides for adults, students, and families.",
+    "Practical online safety tips for everyday life—privacy, passwords, email, scams, social media, devices, and family settings. Step-by-step guides and checklists",
 };
 
 export default function RootLayout({

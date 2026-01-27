@@ -1,15 +1,17 @@
+import type { Metadata } from "next";
 import { PillarLayout, TocItem } from "@/components/pillar/PillarLayout";
 import { PillarSection } from "@/components/pillar/PillarSection";
-import { Tip, Warning, Quote, DoDont, Info } from "@/components/content";
+import { Tip, Info } from "@/components/content";
 
 const toc: TocItem[] = [
-  { id: "introduction", label: "Introduction" },
-  { id: "common-scams", label: "Common Types of Online Scams" },
-  { id: "warning-signs", label: "Recognizing Scam Warning Signs" },
-  { id: "financial-scams", label: "Financial Scams and Payment Fraud" },
-  { id: "impersonation", label: "Impersonation and Identity Fraud" },
-  { id: "responding", label: "What to Do If You Encounter a Scam" },
-  { id: "summary", label: "Summary" },
+  { id: "start-here-scam-prevention", label: "Start Here: 5-Minute Prevention" },
+  { id: "common-online-scams", label: "Common Online Scams" },
+  { id: "how-to-spot-a-scammer", label: "Spot a Scammer" },
+  { id: "payment-safety-rules", label: "Payment Safety Rules" },
+  { id: "channel-specific-scams", label: "Channel-Specific Scams" },
+  { id: "what-to-do-if-scammed", label: "If You Were Scammed" },
+  { id: "next-steps-scam-guides", label: "Next Steps: Scam Guides" },
+  { id: "scam-prevention-faq", label: "Scam Prevention FAQ" },
 ];
 
 const listStyle = { listStyle: "none", padding: 0, margin: 0, display: "grid", gap: "0.75rem" };
@@ -26,6 +28,17 @@ const bulletStyle = {
 };
 const paragraphStyle = { margin: 0, fontSize: "1.05rem", lineHeight: 1.65 };
 const subheadingClass = "mt-5 text-base font-semibold text-slate-800";
+const imageFrameClass =
+  "mx-auto my-6 w-full max-w-3xl overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm";
+
+export const metadata: Metadata = {
+  title: "Online Scam Prevention Tips: Spot Scammers and Avoid Fraud | OnSafetyTip",
+  description:
+    "Learn how to spot online scams and avoid fraud: common scam types, red flags, safe payment rules, verification steps, and what to do if you were scammed. Includes checklists.",
+  alternates: {
+    canonical: "https://onsafetytip.com/scam/",
+  },
+};
 
 export default function ScamPage() {
   return (
@@ -34,265 +47,366 @@ export default function ScamPage() {
         { label: "Home", href: "/" },
         { label: "Scam" },
       ]}
-      title="Scam and Fraud Prevention Tips: Protecting Yourself from Online Scams"
-      description="Essential scam and fraud prevention tips to recognize scams, avoid online fraud, and protect yourself from digital deception."
+      title="Scam Prevention Tips: How to Spot Scammers and Avoid Online Fraud"
+      description="Online scams explained with fast red flags, safe payment rules, and what to do if you were scammed—plus links to deeper guides."
       heroImage="/pillar-page/Scam/scam_1200px.webp"
       heroImageSrcSet="/pillar-page/Scam/scam_1200px.webp 1200w, /pillar-page/Scam/scam_768px.webp 768w, /pillar-page/Scam/scam_500px.webp 500w"
-      updatedAt="Jan 6, 2026"
+      updatedAt="Jan 20, 2026"
       author="Kevin Dragon"
       toc={toc}
     >
-      <PillarSection id="introduction" heading="Introduction">
-        <p className="text-lg leading-8 text-slate-700">
-          Online scams and fraud attempts are becoming more frequent and sophisticated. Scammers target
-          individuals through emails, social media, messages, and fake websites, often by exploiting trust,
-          urgency, or fear.
+      <PillarSection
+        id="start-here-scam-prevention"
+        heading="Start Here: Scam Prevention in 5 Minutes"
+      >
+        <p className={paragraphStyle}>
+          Online scams rely on pressure and shortcuts. These scam prevention tips give you a fast red-flag checklist, the
+          most common scam channels, and what to do if you slip.
         </p>
-        <p className="mt-3 text-lg leading-8 text-slate-700">
-          Scam and fraud prevention is about recognizing common tactics, staying alert to warning signs,
-          and responding safely when something feels suspicious. This page explains essential scam
-          prevention principles and practical steps users can take to reduce the risk of being deceived
-          online.
+        <p className={`${paragraphStyle} mt-3`}>
+          Start with: {" "}
+          <a className="font-semibold text-brand-orange" href="/scam/how-to-spot-a-scammer/">How to Spot a Scammer</a>, {" "}
+          <a className="font-semibold text-brand-orange" href="/scam/common-online-scams/">Common Online Scams</a>, and {" "}
+          <a className="font-semibold text-brand-orange" href="/scam/what-to-do-if-you-were-scammed/">What to Do If You Were Scammed</a>.
+        </p>
+        <p className={`${paragraphStyle} mt-4 text-sm font-semibold text-slate-700`}>
+          Jump to: {" "}
+          <a className="text-brand-orange" href="#common-online-scams">Common scams</a> · {" "}
+          <a className="text-brand-orange" href="#how-to-spot-a-scammer">Red flags</a> · {" "}
+          <a className="text-brand-orange" href="#payment-safety-rules">Payment safety</a> · {" "}
+          <a className="text-brand-orange" href="#what-to-do-if-scammed">If scammed</a> · {" "}
+          <a className="text-brand-orange" href="#scam-prevention-faq">FAQ</a>
+        </p>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h3 className="text-lg font-semibold text-slate-900">Quick checklist (do this now)</h3>
+          <p className="mt-2 text-sm text-slate-600">
+            How to spot a scammer fast—act on these before you respond:
+          </p>
+          <ol className="mt-4 ml-5 list-decimal space-y-2 text-base leading-7 text-slate-700">
+            <li>Pause when you see urgency (“act now,” “last chance,” “account locked”).</li>
+            <li>
+              Verify through an official channel you find yourself — see {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/check-if-website-is-legit/">Check if a Website Is Legit</a>.
+            </li>
+            <li>
+              Never share one-time codes, recovery codes, or passwords — protect them with {" "}
+              <a className="font-semibold text-brand-orange" href="/password/">Password Security Basics</a>.
+            </li>
+            <li>
+              Do not pay strangers with gift cards, crypto, or wire transfers — warning signs covered in {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/investment-crypto-scams/">Investment and Crypto Scams</a>.
+            </li>
+            <li>Check domains carefully for misspellings or extra words.</li>
+            <li>
+              Search the offer + “scam” and read multiple results — more red flags in {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/how-to-spot-a-scammer/">How to Spot a Scammer</a>.
+            </li>
+            <li>Compare “deals” on official sites before paying.</li>
+            <li>If you feel pressured or isolated, stop and talk to someone you trust.</li>
+          </ol>
+          <figure className={imageFrameClass}>
+            <img
+              src="/pillar-page/Scam/Recognizing-Scam-Warning-Signs_800.webp"
+              alt="Illustration about recognizing scam warning signs"
+              className="w-full object-cover"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h3 className="text-base font-semibold text-slate-900">Common scam channels</h3>
+          <p className="mt-2 text-sm leading-6 text-slate-700">
+            Phishing scam attempts arrive by email, social DMs, text messages, phone calls, ads, and fake support pop-ups.
+            Learn channel basics in {" "}
+            <a className="font-semibold text-brand-orange" href="/email/">Email Safety</a>, {" "}
+            <a className="font-semibold text-brand-orange" href="/social/">Social Media Safety</a>, and {" "}
+            <a className="font-semibold text-brand-orange" href="/scam/text-message-scams-smishing/">Text Message Scams (Smishing)</a>.
+          </p>
+        </div>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h3 className="text-base font-semibold text-slate-900">The 80/20 rule</h3>
+          <p className="mt-2 text-sm leading-6 text-slate-700">
+            Scam prevention hinges on four moves: verify independently, protect accounts with strong passwords and 2FA,
+            follow safe payment rules, and slow down urgency. See {" "}
+            <a className="font-semibold text-brand-orange" href="/password/">Password Security Basics</a> {" "}
+            and {" "}
+            <a className="font-semibold text-brand-orange" href="/scam/how-to-spot-a-scammer/">How to Spot a Scammer</a>.
+          </p>
+        </div>
+      </PillarSection>
+
+      <PillarSection id="common-online-scams" heading="Common Online Scams (With Examples)">
+        <p className={paragraphStyle}>
+          Common online scams include phishing/account takeover, delivery/package lures, refund scams, tech support pop-ups,
+          investment/crypto pitches, romance, fake job offers, marketplace overpayments, and charity/emergency requests.
+        </p>
+        <Tip>
+          See the expanded list: {" "}
+          <a className="font-semibold text-brand-orange" href="/scam/common-online-scams/">Common Online Scams (Updated List + Examples)</a>.
+        </Tip>
+        <p className={subheadingClass}>Red flags that apply to almost every scam</p>
+        <ul style={listStyle} className="mt-2">
+          {["Urgency or threats","Secrecy (don’t tell anyone)","Gift card/crypto/wire payments","Too-good-to-be-true deals","New/blank profiles","Mismatched or odd domains","Requests for codes/passwords","Poor grammar or copy-paste phrasing","Pressure to move off-platform","Demands to screen-share or install tools"].map((item) => (
+            <li key={item} style={listItemStyle}>
+              <span aria-hidden="true" style={bulletStyle} />
+              <p style={paragraphStyle}>{item}</p>
+            </li>
+          ))}
+        </ul>
+        <p className={subheadingClass}>Scam “scripts” you’ll hear</p>
+        <p className={paragraphStyle}>
+          Expect lines like: “verify your account,” “your package is held,” “we accidentally refunded you,” “your computer is
+          infected,” “send a code,” or “act now.” These are classic online fraud patterns—treat them as warnings. For tech
+          pop-ups, see {" "}
+          <a className="font-semibold text-brand-orange" href="/device/">Device Security Basics</a> and for phishing, {" "}
+          <a className="font-semibold text-brand-orange" href="/email/">Email Safety</a>.
         </p>
       </PillarSection>
 
-      <PillarSection id="common-scams" heading="Common Types of Online Scams">
-        <p className="text-lg leading-8 text-slate-700">
-          Understanding common scam types helps users recognize suspicious situations more quickly.
+      <PillarSection id="how-to-spot-a-scammer" heading="How to Spot a Scammer (Red Flags + Verification)">
+        <p className={paragraphStyle}>
+          A repeatable method for how to spot a scammer: check payment method, identity proof, timeline pressure, secrecy,
+          link/domain mismatch, and impersonation cues.
         </p>
-        <p className={subheadingClass}>Key Points</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Scams appear in many forms and platforms.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Scammers often reuse familiar patterns.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>New scams are often variations of old tactics.</p>
-          </li>
-        </ul>
-        <p className={subheadingClass}>Practical Tips</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Learn about common scam categories.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Be cautious of unexpected messages or offers.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Verify information through trusted sources.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Stay informed about emerging scam trends.</p>
-          </li>
-        </ul>
-        <Quote>Most scams succeed not because they are new, but because they feel familiar.</Quote>
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Verify before you trust</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              1) Stop and screenshot. 2) Go to the official site/app yourself. 3) Confirm through a second channel (official
+              phone/email or a known contact).
+            </p>
+            <Tip>
+              Quick site checks: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/check-if-website-is-legit/">Check if a Website Is Legit</a> {" "}
+              and sender checks in {" "}
+              <a className="font-semibold text-brand-orange" href="/email/verify-email-sender/">How to Verify an Email Sender</a>.
+            </Tip>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Check if a website is legit (fast checks)</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Inspect domain spelling, HTTPS (not proof by itself), contact page, reviews, return policy, payment options,
+              and avoid brand-new domains when money is involved.
+            </p>
+            <Info>
+              Full guide: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/check-if-website-is-legit/">Fake Websites: How to Check if a Site Is Legit</a>.
+            </Info>
+          </div>
+        </div>
+        <figure className={imageFrameClass}>
+          <img
+            src="/pillar-page/Scam/Identity-Fraud_800.webp"
+            alt="Illustration about identity fraud and verification"
+            className="w-full object-cover"
+            loading="lazy"
+          />
+        </figure>
       </PillarSection>
 
-      <PillarSection id="warning-signs" heading="Recognizing Scam Warning Signs">
-        <p className="text-lg leading-8 text-slate-700">
-          Scams often share recognizable warning signs designed to pressure or confuse users.
-        </p>
-        <img
-          src="/pillar-page/Scam/Recognizing-Scam-Warning-Signs_800.webp"
-          alt="Illustration about recognizing scam warning signs"
-          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
-          loading="lazy"
-        />
-        <p className={subheadingClass}>Key Points</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Messages may create urgency or fear.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Requests often involve secrecy or pressure.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Scammers discourage verification.</p>
-          </li>
-        </ul>
-        <p className={subheadingClass}>Practical Tips</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Pause when a message demands immediate action.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Question requests for personal or financial information.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Look for inconsistencies in language or details.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Trust your instincts when something feels wrong.</p>
-          </li>
-        </ul>
-        <Warning>Urgency is one of the most common tools scammers use to bypass careful thinking.</Warning>
+      <PillarSection id="payment-safety-rules" heading="Payment Safety Rules (Protect Your Money)">
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Safest payment methods (ranked)</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Use payment methods with protections (credit cards, reputable platforms). Avoid irreversible payments for
+              strangers: wire, crypto, or gift cards. Safe payment habits prevent most losses.
+            </p>
+            <Tip>
+              Refund issues guide: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/refund-scams-chargeback/">Refund Scams and Chargeback Tricks</a> {" "}
+              and if money was sent, see {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/what-to-do-if-you-were-scammed/">What to Do If You Were Scammed</a>.
+            </Tip>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Gift card, crypto, and wire transfer scams</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Crypto scams and gift card or wire demands are popular because they’re hard to reverse. Common scripts: “tax,”
+              “support,” “fees,” “investment,” or “urgent refund.”
+            </p>
+            <Info>
+              Learn patterns: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/investment-crypto-scams/">Investment and Crypto Scams</a> {" "}
+              and {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/tech-support-scams/">Tech Support Scams</a>.
+            </Info>
+          </div>
+        </div>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h3 className="text-base font-semibold text-slate-900">Marketplace safety (buying/selling online)</h3>
+          <p className="mt-2 text-sm leading-6 text-slate-700">
+            Stay on-platform, verify buyers, avoid overpayments, meet in safe places, and never share login or one-time
+            codes. For code safety, review {" "}
+            <a className="font-semibold text-brand-orange" href="/password/">Password Security Basics</a> and red flags in {" "}
+            <a className="font-semibold text-brand-orange" href="/scam/how-to-spot-a-scammer/">How to Spot a Scammer</a>.
+          </p>
+        </div>
       </PillarSection>
 
-      <PillarSection id="financial-scams" heading="Financial Scams and Payment Fraud">
-        <p className="text-lg leading-8 text-slate-700">
-          Financial scams aim to steal money through fake transactions, requests, or offers.
-        </p>
-        <img
-          src="/pillar-page/Scam/Financial-Scams_800.webp"
-          alt="Illustration about financial scams and payment fraud"
-          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
-          loading="lazy"
-        />
-        <p className={subheadingClass}>Key Points</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Payment scams often impersonate trusted entities.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Requests may involve unusual payment methods.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Refund or prize scams are common.</p>
-          </li>
-        </ul>
-        <p className={subheadingClass}>Practical Tips</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Avoid sending money to unverified contacts.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Be cautious of payment requests using gift cards or cryptocurrency.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Confirm financial requests through official channels.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Monitor bank and payment account activity regularly.</p>
-          </li>
-        </ul>
-        <DoDont
-          doText="Verify payment requests independently."
-          dontText="Send money based solely on online messages."
-        />
+      <PillarSection id="channel-specific-scams" heading="Channel-Specific Scams (Email, Social, Text, Calls)">
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Email scams and phishing</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Verify sender, avoid email links, and treat unexpected attachments as risky.
+            </p>
+            <Tip>
+              Learn more: {" "}
+              <a className="font-semibold text-brand-orange" href="/email/">Email Safety & Phishing Protection</a> {" "}
+              and {" "}
+              <a className="font-semibold text-brand-orange" href="/email/how-to-spot-phishing-emails/">How to Spot Phishing Emails</a>.
+            </Tip>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Social media scams</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Watch for fake profiles, impersonation, “verification” DMs, and fake giveaways.
+            </p>
+            <Info>
+              Guides: {" "}
+              <a className="font-semibold text-brand-orange" href="/social/">Social Media Safety</a> {" "}
+              and {" "}
+              <a className="font-semibold text-brand-orange" href="/social/how-to-spot-fake-accounts/">How to Spot Fake Accounts on Social Media</a>.
+            </Info>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Text message scams (smishing)</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Delivery notices, “unpaid toll,” bank alerts, and short links are common. Don’t tap—go official.
+            </p>
+            <Tip>
+              See {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/text-message-scams-smishing/">Text Message Scams (Smishing)</a>.
+            </Tip>
+          </div>
+        </div>
       </PillarSection>
 
-      <PillarSection id="impersonation" heading="Impersonation and Identity Fraud">
-        <p className="text-lg leading-8 text-slate-700">
-          Impersonation scams involve pretending to be someone trustworthy, such as a company, authority,
-          or personal contact.
+      <PillarSection id="what-to-do-if-scammed" heading="What to Do If You Were Scammed (Step-by-Step)">
+        <p className={paragraphStyle}>
+          If something feels wrong, act quickly and in order to limit damage.
         </p>
-        <img
-          src="/pillar-page/Scam/Identity-Fraud_800.webp"
-          alt="Illustration about impersonation and identity fraud"
-          className="mt-4 w-full max-w-3xl rounded-2xl border border-slate-100 shadow-sm"
-          loading="lazy"
-        />
-        <p className={subheadingClass}>Key Points</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Scammers may copy logos, names, or profiles.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Fake identities often appear convincing.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Identity fraud can extend beyond one interaction.</p>
-          </li>
-        </ul>
-        <p className={subheadingClass}>Practical Tips</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Verify identities before responding to requests.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Avoid sharing verification codes or personal details.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Contact organizations directly using official websites.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Report impersonation attempts to platforms.</p>
-          </li>
-        </ul>
-        <Quote>If someone pressures you to trust them quickly, trust the situation less.</Quote>
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">If you shared passwords or codes</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Change the password, enable 2FA, log out sessions, and secure email first. One-time code theft often starts in
+              email.
+            </p>
+            <Tip>
+              Start here: {" "}
+              <a className="font-semibold text-brand-orange" href="/password/">Password Security Basics</a> {" "}
+              and {" "}
+              <a className="font-semibold text-brand-orange" href="/email/">Email Safety & Phishing Protection</a>.
+            </Tip>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">If you paid money</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Contact your bank/card immediately, freeze or monitor accounts, document evidence, and report the scam.
+            </p>
+            <Info>
+              Steps: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/what-to-do-if-you-were-scammed/">What to Do If You Were Scammed</a> {" "}
+              and {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/report-a-scam/">Report a Scam</a>.
+            </Info>
+          </div>
+        </div>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h3 className="text-base font-semibold text-slate-900">If it’s extortion or blackmail</h3>
+          <p className="mt-2 text-sm leading-6 text-slate-700">
+            Don’t pay; preserve evidence, lock down accounts, report to the platform, and seek help if threatened.
+          </p>
+          <Tip>
+            Helpful links: {" "}
+            <a className="font-semibold text-brand-orange" href="/social/">Social Media Safety</a>, {" "}
+            <a className="font-semibold text-brand-orange" href="/email/">Email Safety</a>, and {" "}
+            <a className="font-semibold text-brand-orange" href="/scam/report-a-scam/">Report a Scam</a>.
+          </Tip>
+        </div>
       </PillarSection>
 
-      <PillarSection id="responding" heading="What to Do If You Encounter a Scam">
-        <p className="text-lg leading-8 text-slate-700">
-          Knowing how to respond safely can limit damage and prevent further harm.
+      <PillarSection id="next-steps-scam-guides" heading="Next Steps: Choose Your Scam Guide">
+        <p className={paragraphStyle}>
+          Pick the online scam prevention guide you need next—each link goes deeper into a specific scam or fix.
         </p>
-        <p className={subheadingClass}>Key Points</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Quick action can reduce impact.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Reporting scams helps protect others.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Emotional responses can increase risk.</p>
-          </li>
-        </ul>
-        <p className={subheadingClass}>Practical Tips</p>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Stop engaging with the scammer immediately.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Do not share additional information.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Report the scam to the platform or service.</p>
-          </li>
-          <li style={listItemStyle}>
-            <span aria-hidden="true" style={bulletStyle} />
-            <p style={paragraphStyle}>Monitor accounts for unusual activity.</p>
-          </li>
-        </ul>
-        <Tip>Walking away is often the safest response when a scam is suspected.</Tip>
+        <div className="mt-4 grid gap-4 md:grid-cols-2">
+          {[
+            { title: "Common Online Scams (Updated List + Examples)", href: "/scam/common-online-scams/", desc: "Frequent scam patterns with quick examples." },
+            { title: "How to Spot a Scammer (Red Flags Checklist)", href: "/scam/how-to-spot-a-scammer/", desc: "Red flags and a repeatable verification method." },
+            { title: "Fake Websites: How to Check if a Site Is Legit", href: "/scam/check-if-website-is-legit/", desc: "Fast checks before you trust any site." },
+            { title: "Text Message Scams (Smishing): Examples + What to Do", href: "/scam/text-message-scams-smishing/", desc: "Stop short-link lures and delivery/bank smishing." },
+            { title: "Tech Support Scams: How They Work + How to Avoid", href: "/scam/tech-support-scams/", desc: "Handle fake pop-ups and calls without panic." },
+            { title: "Refund Scams and Chargeback Tricks (How to Stay Safe)", href: "/scam/refund-scams-chargeback/", desc: "Avoid fake refunds and chargeback fraud." },
+            { title: "Investment and Crypto Scams (Warning Signs)", href: "/scam/investment-crypto-scams/", desc: "Spot risky pitches before you send money." },
+            { title: "Romance Scams: Red Flags and Safe Dating Tips", href: "/scam/romance-scams/", desc: "Stay safe when relationships move too fast online." },
+            { title: "What to Do If You Were Scammed (Step-by-Step)", href: "/scam/what-to-do-if-you-were-scammed/", desc: "Contain damage, contact providers, and recover." },
+            { title: "Report a Scam: Where and How to Report", href: "/scam/report-a-scam/", desc: "Who to notify and how to submit evidence." },
+          ].map((item) => (
+            <a
+              key={item.title}
+              href={item.href}
+              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <h3 className="text-base font-semibold text-slate-900">{item.title}</h3>
+              <p className="mt-2 text-sm leading-6 text-slate-700">{item.desc}</p>
+            </a>
+          ))}
+        </div>
       </PillarSection>
 
-      <PillarSection id="summary" heading="Summary">
-        <p className="text-lg leading-8 text-slate-700">
-          Scam and fraud prevention relies on awareness, skepticism, and safe decision-making. By
-          recognizing common scam tactics, watching for warning signs, and verifying requests before
-          acting, users can significantly reduce the risk of online fraud.
-        </p>
-        <p className="mt-3 text-lg leading-8 text-slate-700">
-          Staying calm and informed is one of the strongest defenses against scams.
-        </p>
-        <Info>Pause, verify, and report—those habits disrupt most scams before they succeed.</Info>
+      <PillarSection id="scam-prevention-faq" heading="Scam Prevention FAQ">
+        <div className="space-y-6">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">What are the most common online scams?</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Phishing/account takeover, delivery lures, refund scams, tech support pop-ups, investment/crypto promises,
+              romance schemes, fake job offers, and marketplace fraud show up often. See {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/common-online-scams/">Common Online Scams</a>.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">How do I spot a scammer quickly?</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Look for urgency, secrecy, odd payment methods, mismatched domains, and requests for codes or money. Verify
+              through official channels you open yourself. Guide: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/how-to-spot-a-scammer/">How to Spot a Scammer</a>.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">How can I check if a website is legit?</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Check domain spelling, contact details, policies, and independent reviews. Don’t rely on HTTPS alone; verify
+              payment options and avoid rushing. See {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/check-if-website-is-legit/">Fake Websites: How to Check if a Site Is Legit</a>.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">What should I do if I got scammed?</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Stop contact, document evidence, contact your bank or provider, change passwords/enable 2FA if needed, and
+              report the scam. Follow {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/what-to-do-if-you-were-scammed/">What to Do If You Were Scammed</a>.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Why do scammers ask for gift cards or crypto?</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Because those payments are hard to reverse and easy to move. Treat requests for gift cards, crypto, or wire as
+              a major red flag. Learn more: {" "}
+              <a className="font-semibold text-brand-orange" href="/scam/investment-crypto-scams/">Investment and Crypto Scams</a>.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-900">Are social media giveaways usually scams?</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-700">
+              Many are. Verify official accounts, avoid “verification” links, and never share codes. See more in {" "}
+              <a className="font-semibold text-brand-orange" href="/social/">Social Media Safety</a>.
+            </p>
+          </div>
+        </div>
       </PillarSection>
     </PillarLayout>
   );

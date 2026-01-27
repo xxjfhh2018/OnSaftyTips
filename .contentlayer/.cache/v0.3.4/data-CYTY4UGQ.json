@@ -1,0 +1,500 @@
+{
+  "cacheItemsMap": {
+    "anti-scam/spotting-phishing.md": {
+      "document": {
+        "title": "Spotting Phishing Attempts",
+        "description": "Quick checks to tell real messages from scams before you click.",
+        "date": "2024-12-09",
+        "body": {
+          "raw": "# Spotting Phishing Attempts\n\nMost scams rely on urgency and fear. Slow down and look for the telltale signs.\n\n## Red flags\n- Messages that demand immediate action or payment.\n- Links that look misspelled or point to odd domains.\n- Requests for passwords, MFA codes, or banking details.\n\n## Verify safely\n- Contact the company using an official number, not the one in the message.\n- Log in by typing the URL yourself instead of clicking embedded links.\n- Compare the sender address with past legitimate emails.\n\n## If you clicked\n- Change passwords and enable MFA on the affected account.\n- Run an antivirus scan and clear saved logins on the device.\n- Report the scam to your email provider and, if money is involved, your bank.\n",
+          "html": "<h1>Spotting Phishing Attempts</h1>\n<p>Most scams rely on urgency and fear. Slow down and look for the telltale signs.</p>\n<h2>Red flags</h2>\n<ul>\n<li>Messages that demand immediate action or payment.</li>\n<li>Links that look misspelled or point to odd domains.</li>\n<li>Requests for passwords, MFA codes, or banking details.</li>\n</ul>\n<h2>Verify safely</h2>\n<ul>\n<li>Contact the company using an official number, not the one in the message.</li>\n<li>Log in by typing the URL yourself instead of clicking embedded links.</li>\n<li>Compare the sender address with past legitimate emails.</li>\n</ul>\n<h2>If you clicked</h2>\n<ul>\n<li>Change passwords and enable MFA on the affected account.</li>\n<li>Run an antivirus scan and clear saved logins on the device.</li>\n<li>Report the scam to your email provider and, if money is involved, your bank.</li>\n</ul>"
+        },
+        "_id": "anti-scam/spotting-phishing.md",
+        "_raw": {
+          "sourceFilePath": "anti-scam/spotting-phishing.md",
+          "sourceFileName": "spotting-phishing.md",
+          "sourceFileDir": "anti-scam",
+          "contentType": "markdown",
+          "flattenedPath": "anti-scam/spotting-phishing"
+        },
+        "type": "ContentPage",
+        "category": "anti-scam",
+        "slug": "spotting-phishing",
+        "url": "/anti-scam/spotting-phishing",
+        "headings": [
+          {
+            "id": "red-flags",
+            "text": "Red flags",
+            "level": 2
+          },
+          {
+            "id": "verify-safely",
+            "text": "Verify safely",
+            "level": 2
+          },
+          {
+            "id": "if-you-clicked",
+            "text": "If you clicked",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1765788968808",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "basics/strong-passwords.md": {
+      "document": {
+        "title": "Strong Password Basics",
+        "description": "Quick wins to make every account harder to break into.",
+        "date": "2024-12-01",
+        "author": "OnSafetyTip Team",
+        "thumbnail": "/images/placeholder-thumb.svg",
+        "featuredImage": "/images/placeholder-featured.svg",
+        "body": {
+          "raw": "# Strong Password Basics\n\nKeeping every account safe starts with passwords that attackers cannot guess.\n\n## Core rules\n- Use at least 12 characters and mix letters, numbers, and symbols.\n- Avoid personal info like birthdays, names, or pet names.\n- Never reuse the same password across different sites.\n\n## How to manage them\n- Turn on a password manager to generate and store unique logins.\n- Enable multi-factor authentication (MFA) wherever possible.\n- Update old or weak passwords during your next sign-in.\n",
+          "html": "<h1>Strong Password Basics</h1>\n<p>Keeping every account safe starts with passwords that attackers cannot guess.</p>\n<h2>Core rules</h2>\n<ul>\n<li>Use at least 12 characters and mix letters, numbers, and symbols.</li>\n<li>Avoid personal info like birthdays, names, or pet names.</li>\n<li>Never reuse the same password across different sites.</li>\n</ul>\n<h2>How to manage them</h2>\n<ul>\n<li>Turn on a password manager to generate and store unique logins.</li>\n<li>Enable multi-factor authentication (MFA) wherever possible.</li>\n<li>Update old or weak passwords during your next sign-in.</li>\n</ul>"
+        },
+        "_id": "basics/strong-passwords.md",
+        "_raw": {
+          "sourceFilePath": "basics/strong-passwords.md",
+          "sourceFileName": "strong-passwords.md",
+          "sourceFileDir": "basics",
+          "contentType": "markdown",
+          "flattenedPath": "basics/strong-passwords"
+        },
+        "type": "ContentPage",
+        "category": "basics",
+        "slug": "strong-passwords",
+        "url": "/basics/strong-passwords",
+        "headings": [
+          {
+            "id": "core-rules",
+            "text": "Core rules",
+            "level": 2
+          },
+          {
+            "id": "how-to-manage-them",
+            "text": "How to manage them",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1766038608749",
+      "hasWarnings": true,
+      "documentTypeName": "ContentPage"
+    },
+    "family/child-online-safety-tips.md": {
+      "document": {
+        "title": "Child Online Safety Tips",
+        "description": "Age-appropriate rules, supervision strategies, and safe platforms.",
+        "body": {
+          "raw": "\n# Child Online Safety Tips\n\nChild Online Safety Tips should be simple, calm, and repeatable, because young kids tap before they think. This guide shows parents and caregivers how to set rules, supervise, and configure devices so children learn to pause and ask before they click. The goal is to build confident, safe habits—not to scare kids away from the internet.\n\n## Why this is a risk\n\n- Kids can tap ads, pop-ups, or links that install unwanted apps or expose personal info. Early mistakes can store payment details or install trackers.  \n- Inappropriate videos or chats can appear before they know how to close them; a single “Recommended” click can lead to unsuitable content.  \n- Early habits (tapping everything, skipping asks) can stick unless you give clear rules and model them.  \n- Many “kids” apps include chats or friend requests by default; kids may accept unknown contacts out of curiosity.  \n- Shared family devices might autofill logins or payment data; a single tap can place orders or share private info.\n\n## What you should do\n\n- Set two or three core rules and repeat them daily: “Ask before downloading,” “No names/school/addresses online,” and “Only use apps on the approved list.” Post the rules near the device.  \n- Create kid profiles on devices and streaming apps; enable safe search, app store parental controls, and disable in-app purchases. Turn on automatic updates for browsers and apps.  \n- Build a “pause and ask” habit: if a new button, pop-up, ad, or chat appears, they pause and call you. Practice this weekly with quick role-play so it feels normal, not scary.  \n- Keep devices in common areas during screen time; use short, predictable sessions with breaks so you can glance over naturally.  \n- Curate a small set of trusted apps and bookmarked sites with clear icons; remove clutter and uninstall unused apps regularly.  \n- Turn off autoplay and recommendations where possible; encourage choosing from a short “OK to watch/play” list each day.  \n- Use headphone rules: for young kids, keep volume low and allow speakers when possible so you can overhear any unexpected sounds from videos or ads.  \n- Check app permissions monthly (camera, mic, location). Revoke anything a child app doesn’t need.  \n- Teach kids to recognize “tricky” questions: requests for names, school, address, photos, or “secret codes” always require a parent.\n\n<Tip>Teach a “pause and ask” habit: if they see a new button, link, or chat, they pause and get you before tapping.</Tip>\n\n## Daily supervision routine (5–10 minutes)\n\n- Start sessions together: open the approved app list and let your child pick from 3–5 choices.  \n- Stay nearby for the first minute to spot pop-ups or ads; remind them of the “pause and ask” rule.  \n- Mid-session glance: every 5–10 minutes, ask “What are you watching/playing?” and have them point to the screen.  \n- End-of-day check: review recent apps/videos and clear notifications; ask if anything felt weird or confusing.  \n- Weekly tidy-up: remove unused apps, clear downloads, and update the approved list.\n\n## Device setup checklist\n\n- Create a child profile with a PIN, block app installs, and remove payment methods.  \n- Enable safe search; disable in-app browsers where possible.  \n- Turn off autoplay and personalized recommendations; use playlists or whitelists instead.  \n- Limit permissions: no location, mic, or camera unless you actively supervise the activity that needs it.  \n- Use a neutral home screen: only approved apps and bookmarks; hide or uninstall the rest.  \n- Set quiet hours or downtime so devices won’t buzz at night.  \n- Keep backups and restore points; if something goes wrong, you can reset quickly.  \n- Label chargers and shared devices; kids should know which tablet/phone is “theirs” with the safe profile.\n\n## Conversation starters for young kids\n\n- “If a button pops up and you don’t know it, what do you do?” (Pause and ask.)  \n- “What should you do if someone online asks your name or where you go to school?” (Say no, tell a parent.)  \n- “Show me your favorite video/app today—what did you like? Did anything look strange?”  \n- “If a friend shows you a new game, what do you ask me before you try it?”  \n- Reinforce that telling you is safe: “I’m glad you told me; we fix things together.”\n\n## Simple screen-time rules by age\n\n- Ages 3–5: 20–30 minute sessions, co-watch when possible, no chats, no downloads without you.  \n- Ages 6–7: Add one or two trusted learning or creativity apps; keep chats off; practice “pause and ask” weekly.  \n- Ages 8–9: Introduce basic search with safe search on; add a rule to bookmark trusted sites and avoid typing addresses.  \n- All ages: Devices stay in common areas, and sessions end if rules aren’t followed—reset and try again later.\n\n## Common mistakes to avoid\n\n- Assuming one filter is enough—kids can still reach open browsers via ads; review history, bookmarks, and installed apps weekly.  \n- Handing over your unlocked device; always use a separate kid account with install restrictions and no payment methods.  \n- Leaving autoplay on; it can drift into off-topic or inappropriate videos.  \n- Ignoring in-app chats or friend requests; disable or lock them where possible, and rehearse a “we don’t chat with strangers” rule.  \n- Relying only on verbal rules; post rules near the device and revisit them during short weekly check-ins.  \n- Punishing mistakes harshly; kids will hide problems. Respond calmly, praise them for telling you, and fix the issue together.\n\n## Summary\n\nStart with clear rules, safe device setups, and short supervised sessions. Child Online Safety Tips work best when you repeat the “pause and ask” habit until it becomes automatic. Curate a small set of trusted apps, disable unnecessary chats and permissions, and keep devices in shared spaces. As kids show they can follow the rules, loosen controls gradually while keeping regular check-ins.\n\nNeed broader family guidance? See the pillar page: [Family Online Safety Tips](/family).\n",
+          "html": "<h1>Child Online Safety Tips</h1>\n<p>Child Online Safety Tips should be simple, calm, and repeatable, because young kids tap before they think. This guide shows parents and caregivers how to set rules, supervise, and configure devices so children learn to pause and ask before they click. The goal is to build confident, safe habits—not to scare kids away from the internet.</p>\n<h2>Why this is a risk</h2>\n<ul>\n<li>Kids can tap ads, pop-ups, or links that install unwanted apps or expose personal info. Early mistakes can store payment details or install trackers.</li>\n<li>Inappropriate videos or chats can appear before they know how to close them; a single “Recommended” click can lead to unsuitable content.</li>\n<li>Early habits (tapping everything, skipping asks) can stick unless you give clear rules and model them.</li>\n<li>Many “kids” apps include chats or friend requests by default; kids may accept unknown contacts out of curiosity.</li>\n<li>Shared family devices might autofill logins or payment data; a single tap can place orders or share private info.</li>\n</ul>\n<h2>What you should do</h2>\n<ul>\n<li>Set two or three core rules and repeat them daily: “Ask before downloading,” “No names/school/addresses online,” and “Only use apps on the approved list.” Post the rules near the device.</li>\n<li>Create kid profiles on devices and streaming apps; enable safe search, app store parental controls, and disable in-app purchases. Turn on automatic updates for browsers and apps.</li>\n<li>Build a “pause and ask” habit: if a new button, pop-up, ad, or chat appears, they pause and call you. Practice this weekly with quick role-play so it feels normal, not scary.</li>\n<li>Keep devices in common areas during screen time; use short, predictable sessions with breaks so you can glance over naturally.</li>\n<li>Curate a small set of trusted apps and bookmarked sites with clear icons; remove clutter and uninstall unused apps regularly.</li>\n<li>Turn off autoplay and recommendations where possible; encourage choosing from a short “OK to watch/play” list each day.</li>\n<li>Use headphone rules: for young kids, keep volume low and allow speakers when possible so you can overhear any unexpected sounds from videos or ads.</li>\n<li>Check app permissions monthly (camera, mic, location). Revoke anything a child app doesn’t need.</li>\n<li>Teach kids to recognize “tricky” questions: requests for names, school, address, photos, or “secret codes” always require a parent.</li>\n</ul>\n<p>Teach a “pause and ask” habit: if they see a new button, link, or chat, they pause and get you before tapping.</p>\n<h2>Daily supervision routine (5–10 minutes)</h2>\n<ul>\n<li>Start sessions together: open the approved app list and let your child pick from 3–5 choices.</li>\n<li>Stay nearby for the first minute to spot pop-ups or ads; remind them of the “pause and ask” rule.</li>\n<li>Mid-session glance: every 5–10 minutes, ask “What are you watching/playing?” and have them point to the screen.</li>\n<li>End-of-day check: review recent apps/videos and clear notifications; ask if anything felt weird or confusing.</li>\n<li>Weekly tidy-up: remove unused apps, clear downloads, and update the approved list.</li>\n</ul>\n<h2>Device setup checklist</h2>\n<ul>\n<li>Create a child profile with a PIN, block app installs, and remove payment methods.</li>\n<li>Enable safe search; disable in-app browsers where possible.</li>\n<li>Turn off autoplay and personalized recommendations; use playlists or whitelists instead.</li>\n<li>Limit permissions: no location, mic, or camera unless you actively supervise the activity that needs it.</li>\n<li>Use a neutral home screen: only approved apps and bookmarks; hide or uninstall the rest.</li>\n<li>Set quiet hours or downtime so devices won’t buzz at night.</li>\n<li>Keep backups and restore points; if something goes wrong, you can reset quickly.</li>\n<li>Label chargers and shared devices; kids should know which tablet/phone is “theirs” with the safe profile.</li>\n</ul>\n<h2>Conversation starters for young kids</h2>\n<ul>\n<li>“If a button pops up and you don’t know it, what do you do?” (Pause and ask.)</li>\n<li>“What should you do if someone online asks your name or where you go to school?” (Say no, tell a parent.)</li>\n<li>“Show me your favorite video/app today—what did you like? Did anything look strange?”</li>\n<li>“If a friend shows you a new game, what do you ask me before you try it?”</li>\n<li>Reinforce that telling you is safe: “I’m glad you told me; we fix things together.”</li>\n</ul>\n<h2>Simple screen-time rules by age</h2>\n<ul>\n<li>Ages 3–5: 20–30 minute sessions, co-watch when possible, no chats, no downloads without you.</li>\n<li>Ages 6–7: Add one or two trusted learning or creativity apps; keep chats off; practice “pause and ask” weekly.</li>\n<li>Ages 8–9: Introduce basic search with safe search on; add a rule to bookmark trusted sites and avoid typing addresses.</li>\n<li>All ages: Devices stay in common areas, and sessions end if rules aren’t followed—reset and try again later.</li>\n</ul>\n<h2>Common mistakes to avoid</h2>\n<ul>\n<li>Assuming one filter is enough—kids can still reach open browsers via ads; review history, bookmarks, and installed apps weekly.</li>\n<li>Handing over your unlocked device; always use a separate kid account with install restrictions and no payment methods.</li>\n<li>Leaving autoplay on; it can drift into off-topic or inappropriate videos.</li>\n<li>Ignoring in-app chats or friend requests; disable or lock them where possible, and rehearse a “we don’t chat with strangers” rule.</li>\n<li>Relying only on verbal rules; post rules near the device and revisit them during short weekly check-ins.</li>\n<li>Punishing mistakes harshly; kids will hide problems. Respond calmly, praise them for telling you, and fix the issue together.</li>\n</ul>\n<h2>Summary</h2>\n<p>Start with clear rules, safe device setups, and short supervised sessions. Child Online Safety Tips work best when you repeat the “pause and ask” habit until it becomes automatic. Curate a small set of trusted apps, disable unnecessary chats and permissions, and keep devices in shared spaces. As kids show they can follow the rules, loosen controls gradually while keeping regular check-ins.</p>\n<p>Need broader family guidance? See the pillar page: <a href=\"/family\">Family Online Safety Tips</a>.</p>"
+        },
+        "_id": "family/child-online-safety-tips.md",
+        "_raw": {
+          "sourceFilePath": "family/child-online-safety-tips.md",
+          "sourceFileName": "child-online-safety-tips.md",
+          "sourceFileDir": "family",
+          "contentType": "markdown",
+          "flattenedPath": "family/child-online-safety-tips"
+        },
+        "type": "ContentPage",
+        "category": "family",
+        "slug": "child-online-safety-tips",
+        "url": "/family/child-online-safety-tips",
+        "headings": [
+          {
+            "id": "why-this-is-a-risk",
+            "text": "Why this is a risk",
+            "level": 2
+          },
+          {
+            "id": "what-you-should-do",
+            "text": "What you should do",
+            "level": 2
+          },
+          {
+            "id": "daily-supervision-routine-510-minutes",
+            "text": "Daily supervision routine (5–10 minutes)",
+            "level": 2
+          },
+          {
+            "id": "device-setup-checklist",
+            "text": "Device setup checklist",
+            "level": 2
+          },
+          {
+            "id": "conversation-starters-for-young-kids",
+            "text": "Conversation starters for young kids",
+            "level": 2
+          },
+          {
+            "id": "simple-screen-time-rules-by-age",
+            "text": "Simple screen-time rules by age",
+            "level": 2
+          },
+          {
+            "id": "common-mistakes-to-avoid",
+            "text": "Common mistakes to avoid",
+            "level": 2
+          },
+          {
+            "id": "summary",
+            "text": "Summary",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1768290819779",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "family/internet-safety-tips-for-teens.md": {
+      "document": {
+        "title": "Internet Safety Tips for Teens",
+        "description": "Privacy awareness, social media safety, and healthy online behavior.",
+        "body": {
+          "raw": "\n# Internet Safety Tips for Teens\n\nInternet Safety Tips for Teens focus on privacy, social media safety, and healthy online behavior. Teens live online for friends, school, and hobbies, so safety should feel like smart choices and open communication—not surveillance. Use these steps to stay in control of your accounts, your reputation, and your well-being.\n\n## Why this is a risk\n\n- Oversharing can expose location, routines, or private photos that get reshared without consent.  \n- Fake accounts and DMs can pressure you into sharing images, money, or personal info.  \n- Posts, comments, and tags build a lasting digital reputation that colleges or employers may see later.  \n- Location tags and live video can reveal where you are right now, increasing stalking or theft risks.  \n- Group chats can spread rumors or screenshots quickly; once sent, content can be hard to remove.\n\n## What you should do\n\n- Lock down profiles: set friends-only visibility, require tag approvals, and review app-level privacy settings monthly.  \n- Think before posting—ask, “Would I be okay with a teacher, future employer, or family member seeing this?”  \n- Use unique passwords and 2FA for all social and email accounts; never reuse one password across multiple apps.  \n- If something feels off (pressure to move to private chats, requests for photos or money), pause and talk to a trusted adult. Save screenshots before blocking/reporting.  \n- Turn off default location sharing for photos, stories, and live streams; add locations only after you leave a place.  \n- Curate followers: remove or restrict people you don’t recognize; review follower lists monthly.\n\n<Tip>When in doubt about a message or request, take a screenshot and ask someone you trust before responding.</Tip>\n\n## Build safer social profiles\n\n- Enable login alerts and recovery emails/phone numbers you control.  \n- Review connected apps and revoke any you don’t use; old quiz or game apps can still read your data.  \n- Clean up your bio and pinned posts—keep them accurate and low on personal details.  \n- Use Close Friends/Lists for sensitive stories; avoid sharing IDs, tickets, or school schedules.  \n- Archive or delete old posts that no longer represent you or reveal past routines.\n\n## Messaging and group chat hygiene\n\n- Mute or leave chats that pressure you to share personal info or private images.  \n- Disable auto-save of media to your camera roll; it reduces accidental reshares.  \n- For new contacts, verify their identity through a known friend or video call before trusting links.  \n- Set clear boundaries: “I don’t share pictures like that,” or “I’ll ask my parent before clicking links.”  \n- If harassment starts, screenshot, block, and report; tell a trusted adult or counselor early.\n\n## Gaming and community spaces\n\n- Use gamer tags that don’t reveal your real name, school, or hometown.  \n- Keep voice chat to friends or trusted teams; avoid sharing personal details mid-game.  \n- Decline unsolicited file or mod downloads; use official stores and verified mod hubs.  \n- Set spending limits or require approval for in-game purchases; guard stored payment methods.  \n- Report bullying or hate speech; many platforms act faster when multiple reports arrive together.\n\n## Plan your “trusted adult” checklist\n\n- Pick two trusted adults you can contact if something feels off; save their numbers as favorites.  \n- Agree on how to share concerns—text first, then call, or show screenshots in person.  \n- If an incident happens, pause posting, gather evidence (screenshots, usernames, links), and block/report.  \n- Remind yourself: seeking help early is strength, not trouble; adults can escalate reports faster.\n\n## Maintain your digital reputation\n\n- Google your name and usernames monthly; remove old posts or request takedowns where possible.  \n- Audit tagged photos and set approvals; untag or remove anything misleading or too revealing.  \n- Keep school and personal profiles separate; use different usernames and privacy levels.  \n- Before applying to jobs or colleges, archive posts that show locations, routines, or inside jokes that can be misread.\n\n## Common mistakes to avoid\n\n- Accepting every follow or friend request; unknown followers can screenshot and reshare your posts.  \n- Using one password across all apps; a single breach exposes everything.  \n- Leaving location sharing on by default for photos or stories; post locations after you leave.  \n- Joining private calls or meetups with people you haven’t verified; always meet in public with a trusted adult aware.  \n- Sharing screens during calls without checking open tabs or notifications; sensitive info can leak.\n\n## Summary\n\nSet your privacy controls, slow down before posting, and ask for help when something feels wrong. Internet Safety Tips for Teens are about informed choices: unique passwords and 2FA, limited location sharing, careful followers, and clear boundaries in chats and games. Smart habits keep your social life fun, your reputation solid, and your personal info protected.\n\nFor family-wide guidance, see the pillar page [Family Online Safety Tips](/family).\n",
+          "html": "<h1>Internet Safety Tips for Teens</h1>\n<p>Internet Safety Tips for Teens focus on privacy, social media safety, and healthy online behavior. Teens live online for friends, school, and hobbies, so safety should feel like smart choices and open communication—not surveillance. Use these steps to stay in control of your accounts, your reputation, and your well-being.</p>\n<h2>Why this is a risk</h2>\n<ul>\n<li>Oversharing can expose location, routines, or private photos that get reshared without consent.</li>\n<li>Fake accounts and DMs can pressure you into sharing images, money, or personal info.</li>\n<li>Posts, comments, and tags build a lasting digital reputation that colleges or employers may see later.</li>\n<li>Location tags and live video can reveal where you are right now, increasing stalking or theft risks.</li>\n<li>Group chats can spread rumors or screenshots quickly; once sent, content can be hard to remove.</li>\n</ul>\n<h2>What you should do</h2>\n<ul>\n<li>Lock down profiles: set friends-only visibility, require tag approvals, and review app-level privacy settings monthly.</li>\n<li>Think before posting—ask, “Would I be okay with a teacher, future employer, or family member seeing this?”</li>\n<li>Use unique passwords and 2FA for all social and email accounts; never reuse one password across multiple apps.</li>\n<li>If something feels off (pressure to move to private chats, requests for photos or money), pause and talk to a trusted adult. Save screenshots before blocking/reporting.</li>\n<li>Turn off default location sharing for photos, stories, and live streams; add locations only after you leave a place.</li>\n<li>Curate followers: remove or restrict people you don’t recognize; review follower lists monthly.</li>\n</ul>\n<p>When in doubt about a message or request, take a screenshot and ask someone you trust before responding.</p>\n<h2>Build safer social profiles</h2>\n<ul>\n<li>Enable login alerts and recovery emails/phone numbers you control.</li>\n<li>Review connected apps and revoke any you don’t use; old quiz or game apps can still read your data.</li>\n<li>Clean up your bio and pinned posts—keep them accurate and low on personal details.</li>\n<li>Use Close Friends/Lists for sensitive stories; avoid sharing IDs, tickets, or school schedules.</li>\n<li>Archive or delete old posts that no longer represent you or reveal past routines.</li>\n</ul>\n<h2>Messaging and group chat hygiene</h2>\n<ul>\n<li>Mute or leave chats that pressure you to share personal info or private images.</li>\n<li>Disable auto-save of media to your camera roll; it reduces accidental reshares.</li>\n<li>For new contacts, verify their identity through a known friend or video call before trusting links.</li>\n<li>Set clear boundaries: “I don’t share pictures like that,” or “I’ll ask my parent before clicking links.”</li>\n<li>If harassment starts, screenshot, block, and report; tell a trusted adult or counselor early.</li>\n</ul>\n<h2>Gaming and community spaces</h2>\n<ul>\n<li>Use gamer tags that don’t reveal your real name, school, or hometown.</li>\n<li>Keep voice chat to friends or trusted teams; avoid sharing personal details mid-game.</li>\n<li>Decline unsolicited file or mod downloads; use official stores and verified mod hubs.</li>\n<li>Set spending limits or require approval for in-game purchases; guard stored payment methods.</li>\n<li>Report bullying or hate speech; many platforms act faster when multiple reports arrive together.</li>\n</ul>\n<h2>Plan your “trusted adult” checklist</h2>\n<ul>\n<li>Pick two trusted adults you can contact if something feels off; save their numbers as favorites.</li>\n<li>Agree on how to share concerns—text first, then call, or show screenshots in person.</li>\n<li>If an incident happens, pause posting, gather evidence (screenshots, usernames, links), and block/report.</li>\n<li>Remind yourself: seeking help early is strength, not trouble; adults can escalate reports faster.</li>\n</ul>\n<h2>Maintain your digital reputation</h2>\n<ul>\n<li>Google your name and usernames monthly; remove old posts or request takedowns where possible.</li>\n<li>Audit tagged photos and set approvals; untag or remove anything misleading or too revealing.</li>\n<li>Keep school and personal profiles separate; use different usernames and privacy levels.</li>\n<li>Before applying to jobs or colleges, archive posts that show locations, routines, or inside jokes that can be misread.</li>\n</ul>\n<h2>Common mistakes to avoid</h2>\n<ul>\n<li>Accepting every follow or friend request; unknown followers can screenshot and reshare your posts.</li>\n<li>Using one password across all apps; a single breach exposes everything.</li>\n<li>Leaving location sharing on by default for photos or stories; post locations after you leave.</li>\n<li>Joining private calls or meetups with people you haven’t verified; always meet in public with a trusted adult aware.</li>\n<li>Sharing screens during calls without checking open tabs or notifications; sensitive info can leak.</li>\n</ul>\n<h2>Summary</h2>\n<p>Set your privacy controls, slow down before posting, and ask for help when something feels wrong. Internet Safety Tips for Teens are about informed choices: unique passwords and 2FA, limited location sharing, careful followers, and clear boundaries in chats and games. Smart habits keep your social life fun, your reputation solid, and your personal info protected.</p>\n<p>For family-wide guidance, see the pillar page <a href=\"/family\">Family Online Safety Tips</a>.</p>"
+        },
+        "_id": "family/internet-safety-tips-for-teens.md",
+        "_raw": {
+          "sourceFilePath": "family/internet-safety-tips-for-teens.md",
+          "sourceFileName": "internet-safety-tips-for-teens.md",
+          "sourceFileDir": "family",
+          "contentType": "markdown",
+          "flattenedPath": "family/internet-safety-tips-for-teens"
+        },
+        "type": "ContentPage",
+        "category": "family",
+        "slug": "internet-safety-tips-for-teens",
+        "url": "/family/internet-safety-tips-for-teens",
+        "headings": [
+          {
+            "id": "why-this-is-a-risk",
+            "text": "Why this is a risk",
+            "level": 2
+          },
+          {
+            "id": "what-you-should-do",
+            "text": "What you should do",
+            "level": 2
+          },
+          {
+            "id": "build-safer-social-profiles",
+            "text": "Build safer social profiles",
+            "level": 2
+          },
+          {
+            "id": "messaging-and-group-chat-hygiene",
+            "text": "Messaging and group chat hygiene",
+            "level": 2
+          },
+          {
+            "id": "gaming-and-community-spaces",
+            "text": "Gaming and community spaces",
+            "level": 2
+          },
+          {
+            "id": "plan-your-trusted-adult-checklist",
+            "text": "Plan your “trusted adult” checklist",
+            "level": 2
+          },
+          {
+            "id": "maintain-your-digital-reputation",
+            "text": "Maintain your digital reputation",
+            "level": 2
+          },
+          {
+            "id": "common-mistakes-to-avoid",
+            "text": "Common mistakes to avoid",
+            "level": 2
+          },
+          {
+            "id": "summary",
+            "text": "Summary",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1768290917180",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "family/kids-online-basics.md": {
+      "document": {
+        "title": "Online Safety Basics for Kids",
+        "description": "Teach kids simple rules that keep devices and personal info safe.",
+        "date": "2024-12-07",
+        "body": {
+          "raw": "# Online Safety Basics for Kids\n\nStart with short, clear rules that kids can remember and follow on their own.\n\n## Family rules to agree on\n- Ask a parent before downloading new apps or games.\n- Do not share your real name, school, address, or daily routine online.\n- Only chat or play with people you know in real life.\n\n## Device setup\n- Create kid-friendly accounts with screen time limits.\n- Turn on safe search and app content filters.\n- Keep devices updated and require a PIN or passcode.\n\n## What to do when unsure\n- Stop, screenshot, and tell an adult if something feels wrong.\n- Block and report bullying or suspicious messages right away.\n- Never send money or gift card codes to anyone online.\n",
+          "html": "<h1>Online Safety Basics for Kids</h1>\n<p>Start with short, clear rules that kids can remember and follow on their own.</p>\n<h2>Family rules to agree on</h2>\n<ul>\n<li>Ask a parent before downloading new apps or games.</li>\n<li>Do not share your real name, school, address, or daily routine online.</li>\n<li>Only chat or play with people you know in real life.</li>\n</ul>\n<h2>Device setup</h2>\n<ul>\n<li>Create kid-friendly accounts with screen time limits.</li>\n<li>Turn on safe search and app content filters.</li>\n<li>Keep devices updated and require a PIN or passcode.</li>\n</ul>\n<h2>What to do when unsure</h2>\n<ul>\n<li>Stop, screenshot, and tell an adult if something feels wrong.</li>\n<li>Block and report bullying or suspicious messages right away.</li>\n<li>Never send money or gift card codes to anyone online.</li>\n</ul>"
+        },
+        "_id": "family/kids-online-basics.md",
+        "_raw": {
+          "sourceFilePath": "family/kids-online-basics.md",
+          "sourceFileName": "kids-online-basics.md",
+          "sourceFileDir": "family",
+          "contentType": "markdown",
+          "flattenedPath": "family/kids-online-basics"
+        },
+        "type": "ContentPage",
+        "category": "family",
+        "slug": "kids-online-basics",
+        "url": "/family/kids-online-basics",
+        "headings": [
+          {
+            "id": "family-rules-to-agree-on",
+            "text": "Family rules to agree on",
+            "level": 2
+          },
+          {
+            "id": "device-setup",
+            "text": "Device setup",
+            "level": 2
+          },
+          {
+            "id": "what-to-do-when-unsure",
+            "text": "What to do when unsure",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1765788954555",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "family/online-safety-tips-for-parents.md": {
+      "document": {
+        "title": "Online Safety Tips for Parents",
+        "description": "Setting examples, staying informed, and guiding without fear.",
+        "body": {
+          "raw": "\n# Online Safety Tips for Parents\n\nOnline Safety Tips for Parents start with your own habits. Kids copy what you do, so calm guidance—rather than fear—helps children and teens follow safety rules. Use these steps to model safe behavior, stay informed about new apps, and keep conversations open.\n\n## Why this is a risk\n\n- Kids model what they see—unsafe parent habits weaken house rules.  \n- New apps and scams change quickly; outdated advice can miss real risks.  \n- Over-monitoring can push kids to hide their online activity.\n\n## What you should do\n\n- Model basics: unique passwords, a password manager, 2FA on key accounts, screen locks, and careful link-checking. Let kids see you doing it.  \n- Set clear, age-based rules for sharing, chatting, downloads, and time limits; write them down and post them near shared devices.  \n- Stay curious: ask kids to demo their favorite apps; learn privacy settings together and let them show you new features.  \n- Keep regular “digital check-ins” (weekly for young kids, biweekly for teens) to review new apps, privacy settings, and any uncomfortable messages.  \n- Build a “pause and ask” family habit: anytime a pop-up, new link, or request for personal info appears, everyone pauses and checks.  \n- Separate profiles: use child or teen accounts with restricted installs; keep your admin account private and PIN-protected.  \n- Know recovery paths: store backup codes for email/cloud accounts; practice account recovery so you can act fast after a lockout.\n\n<Info>Make safety a conversation, not a surprise inspection. Predictable check-ins build trust and openness.</Info>\n\n## Build a family safety plan\n\n- Define 3–5 house rules (sharing, downloads, screen time, location sharing, reporting weird stuff).  \n- Post the rules visibly; revisit them monthly and adjust as kids mature.  \n- Agree on “who to tell” for different issues: scams, bullying, unwanted chats, or suspicious downloads.  \n- Decide device locations and hours: common areas for young kids, no unsupervised late-night use for younger teens.  \n- Create a simple consequence ladder that restores trust (review rules, practice together, then regain privileges).\n\n## Stay informed without panic\n\n- Subscribe to one trusted source (school tech bulletin, a security newsletter, or platform safety pages) and skim weekly.  \n- When kids mention a new app, look up its safety settings together; turn on private profiles, disable location by default, and limit DMs to friends.  \n- Keep a small “test device” or secondary profile to explore new apps before approving them for kids.  \n- Update devices monthly: browser, OS, and apps—do it as a family mini “update night.”  \n- Avoid knee-jerk bans; instead, set conditions: “You can use this app with these privacy settings and check-ins.”\n\n## Model the behavior you expect\n\n- Lock your own screens when you step away; narrate why: “I lock my phone to protect our info.”  \n- Show how you check sender addresses and URLs before clicking links; explain red flags aloud.  \n- Avoid oversharing your own routines or locations on social media; kids notice.  \n- Use respectful online tone; remind kids that kindness and privacy go together.  \n- Demonstrate how to decline friend requests or DMs from unknown people and how to report abuse.\n\n## Guide kids and teens by age\n\n- Young kids: co-watch, use whitelisted apps, disable chats, and practice “pause and ask.”  \n- Preteens: teach private profiles, friend approvals, and why we avoid random DMs; allow limited search with safe search on.  \n- Teens: focus on reputation, privacy, scams, and consent; encourage them to teach you about their apps and set shared agreements.  \n- All ages: keep devices in shared spaces during vulnerable hours (late night, before school).\n\n## Common mistakes to avoid\n\n- Using one-size-fits-all rules for different ages.  \n- Reacting with anger when kids report mistakes—reward honesty instead.  \n- Relying only on parental controls without teaching judgment.\n\n## Recovery playbook (when something goes wrong)\n\n- Stay calm and thank your child for telling you.  \n- Collect evidence: screenshots, usernames, links, timestamps.  \n- Change passwords and enable 2FA on affected accounts; sign out of all sessions.  \n- Remove suspicious apps or extensions; run a security scan if available.  \n- Report and block the offending account or app content.  \n- If money or personal data is involved, contact your bank/school quickly and monitor statements/alerts.  \n- Debrief later: what worked, what to change in rules or device setup.\n\n## Summary\n\nLead by example, stay informed, and keep the dialogue open. Online Safety Tips for Parents work when you model strong passwords and 2FA, practice “pause and ask,” keep predictable check-ins, and adjust rules by age. Trust plus clear expectations helps kids come to you early, before small issues become big ones.\n\nNeed the full family overview? Read the pillar page: [Family Online Safety Tips](/family).\n",
+          "html": "<h1>Online Safety Tips for Parents</h1>\n<p>Online Safety Tips for Parents start with your own habits. Kids copy what you do, so calm guidance—rather than fear—helps children and teens follow safety rules. Use these steps to model safe behavior, stay informed about new apps, and keep conversations open.</p>\n<h2>Why this is a risk</h2>\n<ul>\n<li>Kids model what they see—unsafe parent habits weaken house rules.</li>\n<li>New apps and scams change quickly; outdated advice can miss real risks.</li>\n<li>Over-monitoring can push kids to hide their online activity.</li>\n</ul>\n<h2>What you should do</h2>\n<ul>\n<li>Model basics: unique passwords, a password manager, 2FA on key accounts, screen locks, and careful link-checking. Let kids see you doing it.</li>\n<li>Set clear, age-based rules for sharing, chatting, downloads, and time limits; write them down and post them near shared devices.</li>\n<li>Stay curious: ask kids to demo their favorite apps; learn privacy settings together and let them show you new features.</li>\n<li>Keep regular “digital check-ins” (weekly for young kids, biweekly for teens) to review new apps, privacy settings, and any uncomfortable messages.</li>\n<li>Build a “pause and ask” family habit: anytime a pop-up, new link, or request for personal info appears, everyone pauses and checks.</li>\n<li>Separate profiles: use child or teen accounts with restricted installs; keep your admin account private and PIN-protected.</li>\n<li>Know recovery paths: store backup codes for email/cloud accounts; practice account recovery so you can act fast after a lockout.</li>\n</ul>\n<p>Make safety a conversation, not a surprise inspection. Predictable check-ins build trust and openness.</p>\n<h2>Build a family safety plan</h2>\n<ul>\n<li>Define 3–5 house rules (sharing, downloads, screen time, location sharing, reporting weird stuff).</li>\n<li>Post the rules visibly; revisit them monthly and adjust as kids mature.</li>\n<li>Agree on “who to tell” for different issues: scams, bullying, unwanted chats, or suspicious downloads.</li>\n<li>Decide device locations and hours: common areas for young kids, no unsupervised late-night use for younger teens.</li>\n<li>Create a simple consequence ladder that restores trust (review rules, practice together, then regain privileges).</li>\n</ul>\n<h2>Stay informed without panic</h2>\n<ul>\n<li>Subscribe to one trusted source (school tech bulletin, a security newsletter, or platform safety pages) and skim weekly.</li>\n<li>When kids mention a new app, look up its safety settings together; turn on private profiles, disable location by default, and limit DMs to friends.</li>\n<li>Keep a small “test device” or secondary profile to explore new apps before approving them for kids.</li>\n<li>Update devices monthly: browser, OS, and apps—do it as a family mini “update night.”</li>\n<li>Avoid knee-jerk bans; instead, set conditions: “You can use this app with these privacy settings and check-ins.”</li>\n</ul>\n<h2>Model the behavior you expect</h2>\n<ul>\n<li>Lock your own screens when you step away; narrate why: “I lock my phone to protect our info.”</li>\n<li>Show how you check sender addresses and URLs before clicking links; explain red flags aloud.</li>\n<li>Avoid oversharing your own routines or locations on social media; kids notice.</li>\n<li>Use respectful online tone; remind kids that kindness and privacy go together.</li>\n<li>Demonstrate how to decline friend requests or DMs from unknown people and how to report abuse.</li>\n</ul>\n<h2>Guide kids and teens by age</h2>\n<ul>\n<li>Young kids: co-watch, use whitelisted apps, disable chats, and practice “pause and ask.”</li>\n<li>Preteens: teach private profiles, friend approvals, and why we avoid random DMs; allow limited search with safe search on.</li>\n<li>Teens: focus on reputation, privacy, scams, and consent; encourage them to teach you about their apps and set shared agreements.</li>\n<li>All ages: keep devices in shared spaces during vulnerable hours (late night, before school).</li>\n</ul>\n<h2>Common mistakes to avoid</h2>\n<ul>\n<li>Using one-size-fits-all rules for different ages.</li>\n<li>Reacting with anger when kids report mistakes—reward honesty instead.</li>\n<li>Relying only on parental controls without teaching judgment.</li>\n</ul>\n<h2>Recovery playbook (when something goes wrong)</h2>\n<ul>\n<li>Stay calm and thank your child for telling you.</li>\n<li>Collect evidence: screenshots, usernames, links, timestamps.</li>\n<li>Change passwords and enable 2FA on affected accounts; sign out of all sessions.</li>\n<li>Remove suspicious apps or extensions; run a security scan if available.</li>\n<li>Report and block the offending account or app content.</li>\n<li>If money or personal data is involved, contact your bank/school quickly and monitor statements/alerts.</li>\n<li>Debrief later: what worked, what to change in rules or device setup.</li>\n</ul>\n<h2>Summary</h2>\n<p>Lead by example, stay informed, and keep the dialogue open. Online Safety Tips for Parents work when you model strong passwords and 2FA, practice “pause and ask,” keep predictable check-ins, and adjust rules by age. Trust plus clear expectations helps kids come to you early, before small issues become big ones.</p>\n<p>Need the full family overview? Read the pillar page: <a href=\"/family\">Family Online Safety Tips</a>.</p>"
+        },
+        "_id": "family/online-safety-tips-for-parents.md",
+        "_raw": {
+          "sourceFilePath": "family/online-safety-tips-for-parents.md",
+          "sourceFileName": "online-safety-tips-for-parents.md",
+          "sourceFileDir": "family",
+          "contentType": "markdown",
+          "flattenedPath": "family/online-safety-tips-for-parents"
+        },
+        "type": "ContentPage",
+        "category": "family",
+        "slug": "online-safety-tips-for-parents",
+        "url": "/family/online-safety-tips-for-parents",
+        "headings": [
+          {
+            "id": "why-this-is-a-risk",
+            "text": "Why this is a risk",
+            "level": 2
+          },
+          {
+            "id": "what-you-should-do",
+            "text": "What you should do",
+            "level": 2
+          },
+          {
+            "id": "build-a-family-safety-plan",
+            "text": "Build a family safety plan",
+            "level": 2
+          },
+          {
+            "id": "stay-informed-without-panic",
+            "text": "Stay informed without panic",
+            "level": 2
+          },
+          {
+            "id": "model-the-behavior-you-expect",
+            "text": "Model the behavior you expect",
+            "level": 2
+          },
+          {
+            "id": "guide-kids-and-teens-by-age",
+            "text": "Guide kids and teens by age",
+            "level": 2
+          },
+          {
+            "id": "common-mistakes-to-avoid",
+            "text": "Common mistakes to avoid",
+            "level": 2
+          },
+          {
+            "id": "recovery-playbook-when-something-goes-wrong",
+            "text": "Recovery playbook (when something goes wrong)",
+            "level": 2
+          },
+          {
+            "id": "summary",
+            "text": "Summary",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1768291034285",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "family/online-safety-tips-for-students.md": {
+      "document": {
+        "title": "Online Safety Tips for Students",
+        "description": "School accounts, phishing awareness, and safe study habits.",
+        "body": {
+          "raw": "\n# Online Safety Tips for Students\n\nOnline Safety Tips for Students focus on protecting school accounts, keeping research clean, and avoiding scams on shared networks. This guide gives clear steps you can apply today to keep coursework, personal data, and devices safe—without adding extra stress during busy semesters.\n\n## Why this is a risk\n\n- School accounts are frequent phishing targets; one click can expose grades, personal info, and financial aid details.  \n- Shared labs, library computers, or borrowed devices can auto-save logins and files if you forget to log out.  \n- Public or campus Wi‑Fi can leak credentials if you join spoofed hotspots or skip HTTPS checks.  \n- Assignment files from classmates or unknown links can hide malware; a single risky download can lock you out during deadlines.  \n- Social pressure to join every group chat can lead to oversharing or clicking on “urgent” links without verifying.\n\n## What you should do\n\n- Use a password manager; keep school logins unique and enable 2FA if offered. Avoid reusing your school password on personal apps.  \n- Verify every school email: check sender domain, spelling, and whether the request makes sense. When unsure, open the school portal from your bookmark, not the email link.  \n- Log out and clear browser data on shared devices. Turn off “save password” prompts on lab computers and disable file sync for guest sessions.  \n- Download assignments and software only from official portals or app stores. Never install “free” PDF converters or random extensions to submit work.  \n- Keep browsers and OS updated. Accept updates before exams or big submissions to avoid forced restarts mid-test.  \n- Use campus VPN if available when on public Wi‑Fi; at minimum, verify network names with campus IT and favor HTTPS sites.\n\n<Info>When you’re rushed, default to opening the school portal from a bookmark rather than any emailed link.</Info>\n\n## Quick security setup (10 minutes)\n\n- Add 2FA to your school email, LMS, and cloud storage.  \n- Create a browser profile just for school with a clean bookmark bar (portal, library, citations, plagiarism checker).  \n- Turn on auto-lock for your laptop/phone after a short idle time; require a PIN/biometric.  \n- Remove unused extensions; keep only essentials (grammar checker, citation helper) from trusted sources.  \n- Set download prompts to “ask where to save” so you don’t run files blindly.\n\n## Study and collaboration habits\n\n- Use shared docs with restricted access (view/comment as needed). Remove access after group projects end.  \n- Name files clearly and store them in a dedicated school folder; avoid dumping them into “Downloads.”  \n- For group chats, set norms: no unknown links, no attachments from strangers, verify meeting links in the LMS.  \n- Keep a “clean device” policy for exams: close extra tabs, log out of personal accounts, and disable notifications.  \n- Back up important assignments to school cloud plus one personal drive; keep offline copies before big exams.\n\n## Public Wi‑Fi and travel checklist\n\n- Confirm the network name with campus signage or staff; avoid look-alike SSIDs.  \n- Turn off auto-join for public networks; join manually when needed.  \n- Use VPN if available; otherwise, stick to HTTPS and avoid logging into banking or shopping on public Wi‑Fi.  \n- Disable file sharing and AirDrop/Nearby Share in public spaces.  \n- Sign out of all accounts before closing the laptop in a café or library; power off if stepping away.  \n- After travel, change your main passwords (email, LMS, cloud) and review account activity.\n\n## Exam day security routine\n\n- Restart your laptop the night before to apply updates and clear temp files.  \n- Log in to required exam portals from bookmarks; test 2FA and camera/mic permissions.  \n- Remove unneeded extensions; some proctoring tools block exams if extensions are present.  \n- Close personal email, socials, and messaging apps to reduce distractions and accidental notifications.  \n- Plug in or fully charge devices; low battery prompts can break focus during timed tests.  \n- Keep a printed backup of exam access instructions in case Wi‑Fi drops.\n\n## Safe research habits\n\n- Start from trusted sources: school library databases, known journals, or reputable news outlets.  \n- Check URLs before entering login info; look for HTTPS and the correct domain.  \n- Avoid copy-pasting commands or code from random forums without scanning for intent.  \n- If you need a new tool (citation manager, diagram app), get it from the official site or app store—never from ads.  \n- Keep notes of sources to avoid accidental plagiarism and to retrace if a link was malicious.\n\n## Common mistakes to avoid\n\n- Reusing your school password on personal apps—one breach can unlock all accounts.  \n- Leaving devices unlocked in libraries or cafés; auto-lock should trigger within minutes.  \n- Using personal email or random cloud drives for graded work; mixing contexts increases leak risk.  \n- Ignoring browser or OS updates; outdated software is easier to exploit and may block secure exam tools.  \n- Installing “helpful” extensions from ads or unknown developers; they can read pages and steal tokens.  \n- Forgetting to remove shared access after group projects; old links can be reshared without you knowing.\n\n## Summary\n\nProtect logins with unique passwords and 2FA, verify links through bookmarks, and tidy your tracks on shared devices. Online Safety Tips for Students are about small daily habits—clean browser profiles, limited extensions, careful downloads, and clear group norms. These steps keep your coursework, identity, and devices safer every day, especially when deadlines are tight.\n\nRelated: broader guidance for families is on the pillar page [Family Online Safety Tips](/family).\n",
+          "html": "<h1>Online Safety Tips for Students</h1>\n<p>Online Safety Tips for Students focus on protecting school accounts, keeping research clean, and avoiding scams on shared networks. This guide gives clear steps you can apply today to keep coursework, personal data, and devices safe—without adding extra stress during busy semesters.</p>\n<h2>Why this is a risk</h2>\n<ul>\n<li>School accounts are frequent phishing targets; one click can expose grades, personal info, and financial aid details.</li>\n<li>Shared labs, library computers, or borrowed devices can auto-save logins and files if you forget to log out.</li>\n<li>Public or campus Wi‑Fi can leak credentials if you join spoofed hotspots or skip HTTPS checks.</li>\n<li>Assignment files from classmates or unknown links can hide malware; a single risky download can lock you out during deadlines.</li>\n<li>Social pressure to join every group chat can lead to oversharing or clicking on “urgent” links without verifying.</li>\n</ul>\n<h2>What you should do</h2>\n<ul>\n<li>Use a password manager; keep school logins unique and enable 2FA if offered. Avoid reusing your school password on personal apps.</li>\n<li>Verify every school email: check sender domain, spelling, and whether the request makes sense. When unsure, open the school portal from your bookmark, not the email link.</li>\n<li>Log out and clear browser data on shared devices. Turn off “save password” prompts on lab computers and disable file sync for guest sessions.</li>\n<li>Download assignments and software only from official portals or app stores. Never install “free” PDF converters or random extensions to submit work.</li>\n<li>Keep browsers and OS updated. Accept updates before exams or big submissions to avoid forced restarts mid-test.</li>\n<li>Use campus VPN if available when on public Wi‑Fi; at minimum, verify network names with campus IT and favor HTTPS sites.</li>\n</ul>\n<p>When you’re rushed, default to opening the school portal from a bookmark rather than any emailed link.</p>\n<h2>Quick security setup (10 minutes)</h2>\n<ul>\n<li>Add 2FA to your school email, LMS, and cloud storage.</li>\n<li>Create a browser profile just for school with a clean bookmark bar (portal, library, citations, plagiarism checker).</li>\n<li>Turn on auto-lock for your laptop/phone after a short idle time; require a PIN/biometric.</li>\n<li>Remove unused extensions; keep only essentials (grammar checker, citation helper) from trusted sources.</li>\n<li>Set download prompts to “ask where to save” so you don’t run files blindly.</li>\n</ul>\n<h2>Study and collaboration habits</h2>\n<ul>\n<li>Use shared docs with restricted access (view/comment as needed). Remove access after group projects end.</li>\n<li>Name files clearly and store them in a dedicated school folder; avoid dumping them into “Downloads.”</li>\n<li>For group chats, set norms: no unknown links, no attachments from strangers, verify meeting links in the LMS.</li>\n<li>Keep a “clean device” policy for exams: close extra tabs, log out of personal accounts, and disable notifications.</li>\n<li>Back up important assignments to school cloud plus one personal drive; keep offline copies before big exams.</li>\n</ul>\n<h2>Public Wi‑Fi and travel checklist</h2>\n<ul>\n<li>Confirm the network name with campus signage or staff; avoid look-alike SSIDs.</li>\n<li>Turn off auto-join for public networks; join manually when needed.</li>\n<li>Use VPN if available; otherwise, stick to HTTPS and avoid logging into banking or shopping on public Wi‑Fi.</li>\n<li>Disable file sharing and AirDrop/Nearby Share in public spaces.</li>\n<li>Sign out of all accounts before closing the laptop in a café or library; power off if stepping away.</li>\n<li>After travel, change your main passwords (email, LMS, cloud) and review account activity.</li>\n</ul>\n<h2>Exam day security routine</h2>\n<ul>\n<li>Restart your laptop the night before to apply updates and clear temp files.</li>\n<li>Log in to required exam portals from bookmarks; test 2FA and camera/mic permissions.</li>\n<li>Remove unneeded extensions; some proctoring tools block exams if extensions are present.</li>\n<li>Close personal email, socials, and messaging apps to reduce distractions and accidental notifications.</li>\n<li>Plug in or fully charge devices; low battery prompts can break focus during timed tests.</li>\n<li>Keep a printed backup of exam access instructions in case Wi‑Fi drops.</li>\n</ul>\n<h2>Safe research habits</h2>\n<ul>\n<li>Start from trusted sources: school library databases, known journals, or reputable news outlets.</li>\n<li>Check URLs before entering login info; look for HTTPS and the correct domain.</li>\n<li>Avoid copy-pasting commands or code from random forums without scanning for intent.</li>\n<li>If you need a new tool (citation manager, diagram app), get it from the official site or app store—never from ads.</li>\n<li>Keep notes of sources to avoid accidental plagiarism and to retrace if a link was malicious.</li>\n</ul>\n<h2>Common mistakes to avoid</h2>\n<ul>\n<li>Reusing your school password on personal apps—one breach can unlock all accounts.</li>\n<li>Leaving devices unlocked in libraries or cafés; auto-lock should trigger within minutes.</li>\n<li>Using personal email or random cloud drives for graded work; mixing contexts increases leak risk.</li>\n<li>Ignoring browser or OS updates; outdated software is easier to exploit and may block secure exam tools.</li>\n<li>Installing “helpful” extensions from ads or unknown developers; they can read pages and steal tokens.</li>\n<li>Forgetting to remove shared access after group projects; old links can be reshared without you knowing.</li>\n</ul>\n<h2>Summary</h2>\n<p>Protect logins with unique passwords and 2FA, verify links through bookmarks, and tidy your tracks on shared devices. Online Safety Tips for Students are about small daily habits—clean browser profiles, limited extensions, careful downloads, and clear group norms. These steps keep your coursework, identity, and devices safer every day, especially when deadlines are tight.</p>\n<p>Related: broader guidance for families is on the pillar page <a href=\"/family\">Family Online Safety Tips</a>.</p>"
+        },
+        "_id": "family/online-safety-tips-for-students.md",
+        "_raw": {
+          "sourceFilePath": "family/online-safety-tips-for-students.md",
+          "sourceFileName": "online-safety-tips-for-students.md",
+          "sourceFileDir": "family",
+          "contentType": "markdown",
+          "flattenedPath": "family/online-safety-tips-for-students"
+        },
+        "type": "ContentPage",
+        "category": "family",
+        "slug": "online-safety-tips-for-students",
+        "url": "/family/online-safety-tips-for-students",
+        "headings": [
+          {
+            "id": "why-this-is-a-risk",
+            "text": "Why this is a risk",
+            "level": 2
+          },
+          {
+            "id": "what-you-should-do",
+            "text": "What you should do",
+            "level": 2
+          },
+          {
+            "id": "quick-security-setup-10-minutes",
+            "text": "Quick security setup (10 minutes)",
+            "level": 2
+          },
+          {
+            "id": "study-and-collaboration-habits",
+            "text": "Study and collaboration habits",
+            "level": 2
+          },
+          {
+            "id": "public-wifi-and-travel-checklist",
+            "text": "Public Wi‑Fi and travel checklist",
+            "level": 2
+          },
+          {
+            "id": "exam-day-security-routine",
+            "text": "Exam day security routine",
+            "level": 2
+          },
+          {
+            "id": "safe-research-habits",
+            "text": "Safe research habits",
+            "level": 2
+          },
+          {
+            "id": "common-mistakes-to-avoid",
+            "text": "Common mistakes to avoid",
+            "level": 2
+          },
+          {
+            "id": "summary",
+            "text": "Summary",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1768290884823",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "social-media/safer-sharing.md": {
+      "document": {
+        "title": "Safer Sharing on Social Media",
+        "description": "Reduce oversharing risk and keep your profiles from leaking sensitive info.",
+        "date": "2024-12-05",
+        "body": {
+          "raw": "# Safer Sharing on Social Media\n\nSocial feeds can reveal more than you expect. Trim exposure with these habits.\n\n## Profile controls\n- Set profiles to private where possible and review follower lists monthly.\n- Hide contact details, location history, and birthday.\n- Use separate emails for social accounts vs. banking or work.\n\n## Posting checklist\n- Avoid real-time location posts; share after you leave.\n- Blur or crop documents, badges, or mail visible in photos.\n- Skip quizzes or chain posts that ask for personal facts.\n\n## Direct messages\n- Verify unexpected requests—even from friends whose accounts might be hijacked.\n- Decline links to downloads or giveaways that look suspicious.\n- Report and block abusive accounts instead of engaging.\n",
+          "html": "<h1>Safer Sharing on Social Media</h1>\n<p>Social feeds can reveal more than you expect. Trim exposure with these habits.</p>\n<h2>Profile controls</h2>\n<ul>\n<li>Set profiles to private where possible and review follower lists monthly.</li>\n<li>Hide contact details, location history, and birthday.</li>\n<li>Use separate emails for social accounts vs. banking or work.</li>\n</ul>\n<h2>Posting checklist</h2>\n<ul>\n<li>Avoid real-time location posts; share after you leave.</li>\n<li>Blur or crop documents, badges, or mail visible in photos.</li>\n<li>Skip quizzes or chain posts that ask for personal facts.</li>\n</ul>\n<h2>Direct messages</h2>\n<ul>\n<li>Verify unexpected requests—even from friends whose accounts might be hijacked.</li>\n<li>Decline links to downloads or giveaways that look suspicious.</li>\n<li>Report and block abusive accounts instead of engaging.</li>\n</ul>"
+        },
+        "_id": "social-media/safer-sharing.md",
+        "_raw": {
+          "sourceFilePath": "social-media/safer-sharing.md",
+          "sourceFileName": "safer-sharing.md",
+          "sourceFileDir": "social-media",
+          "contentType": "markdown",
+          "flattenedPath": "social-media/safer-sharing"
+        },
+        "type": "ContentPage",
+        "category": "social-media",
+        "slug": "safer-sharing",
+        "url": "/social-media/safer-sharing",
+        "headings": [
+          {
+            "id": "profile-controls",
+            "text": "Profile controls",
+            "level": 2
+          },
+          {
+            "id": "posting-checklist",
+            "text": "Posting checklist",
+            "level": 2
+          },
+          {
+            "id": "direct-messages",
+            "text": "Direct messages",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1765788946201",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    },
+    "privacy/data-privacy-checklist.md": {
+      "document": {
+        "title": "Data Privacy Checklist",
+        "description": "Simple steps to shrink your digital footprint and guard personal info.",
+        "date": "2024-12-03",
+        "body": {
+          "raw": "# Data Privacy Checklist\n\nThese quick adjustments reduce how much of your personal data is exposed online.\n\n## Account hygiene\n- Review connected apps and remove ones you no longer use.\n- Turn on login alerts for new devices.\n- Use unique passwords plus MFA on email and cloud storage.\n\n## Device settings\n- Disable location sharing for apps that do not need it.\n- Limit ad tracking and clear old browsing data.\n- Keep OS and browser updated to the latest version.\n\n## Everyday habits\n- Share less on public profiles—remove phone, address, and birthday.\n- Be cautious with public Wi-Fi; avoid banking or shopping there.\n- Back up important files before making major changes.\n",
+          "html": "<h1>Data Privacy Checklist</h1>\n<p>These quick adjustments reduce how much of your personal data is exposed online.</p>\n<h2>Account hygiene</h2>\n<ul>\n<li>Review connected apps and remove ones you no longer use.</li>\n<li>Turn on login alerts for new devices.</li>\n<li>Use unique passwords plus MFA on email and cloud storage.</li>\n</ul>\n<h2>Device settings</h2>\n<ul>\n<li>Disable location sharing for apps that do not need it.</li>\n<li>Limit ad tracking and clear old browsing data.</li>\n<li>Keep OS and browser updated to the latest version.</li>\n</ul>\n<h2>Everyday habits</h2>\n<ul>\n<li>Share less on public profiles—remove phone, address, and birthday.</li>\n<li>Be cautious with public Wi-Fi; avoid banking or shopping there.</li>\n<li>Back up important files before making major changes.</li>\n</ul>"
+        },
+        "_id": "privacy/data-privacy-checklist.md",
+        "_raw": {
+          "sourceFilePath": "privacy/data-privacy-checklist.md",
+          "sourceFileName": "data-privacy-checklist.md",
+          "sourceFileDir": "privacy",
+          "contentType": "markdown",
+          "flattenedPath": "privacy/data-privacy-checklist"
+        },
+        "type": "ContentPage",
+        "category": "privacy",
+        "slug": "data-privacy-checklist",
+        "url": "/privacy/data-privacy-checklist",
+        "headings": [
+          {
+            "id": "account-hygiene",
+            "text": "Account hygiene",
+            "level": 2
+          },
+          {
+            "id": "device-settings",
+            "text": "Device settings",
+            "level": 2
+          },
+          {
+            "id": "everyday-habits",
+            "text": "Everyday habits",
+            "level": 2
+          }
+        ]
+      },
+      "documentHash": "1765788712481",
+      "hasWarnings": false,
+      "documentTypeName": "ContentPage"
+    }
+  }
+}

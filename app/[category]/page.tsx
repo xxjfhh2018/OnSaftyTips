@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
-import { CATEGORIES, getCategoryBySlug, getPost } from "@/lib/content";
+import { ArticleBody } from "@/components/content-page";
+import { CATEGORIES } from "@/lib/categories";
+import { allContentPages } from "contentlayer/generated";
 
 export const revalidate = 86400;
 
@@ -13,13 +15,15 @@ export default async function CategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const { category: categorySlug } = await params;
-  const category = getCategoryBySlug(categorySlug);
+  const category = CATEGORIES.find((cat) => cat.slug === categorySlug);
 
   if (!category) {
     notFound();
   }
 
-  const pillar = await getPost(category.slug, "index");
+  const pillar = allContentPages.find(
+    (doc) => doc.category === category.slug && doc.slug === "index"
+  );
 
   if (!pillar) {
     notFound();
@@ -39,9 +43,7 @@ export default async function CategoryPage({
         </p>
       </div>
 
-      <article className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-li:text-slate-700 prose-a:text-brand-orange">
-        <div dangerouslySetInnerHTML={{ __html: pillar.html }} />
-      </article>
+      <ArticleBody code={pillar.body.code} />
     </main>
   );
 }
