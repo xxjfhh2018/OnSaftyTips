@@ -46,7 +46,9 @@ const Ul = ({ children }: { children: ReactNode }) => (
 );
 
 const Li = ({ children }: { children: ReactNode }) => (
-  <li className="leading-relaxed">{children}</li>
+  <li className="leading-relaxed">
+    <p className="leading-relaxed">{children}</p>
+  </li>
 );
 
 export const mdxComponents = {

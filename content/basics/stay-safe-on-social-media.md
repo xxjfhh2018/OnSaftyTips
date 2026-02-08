@@ -2,7 +2,6 @@
 title: "How to Stay Safe on Social Media: Privacy Tips to Protect Yourself Online"
 date: "2025-12-15"
 author: "Kevin"
-category: "Basics"
 thumbnail: "/images/posts/chatgpt-thumb.jpg"
 featuredImage: "/images/posts/chatgpt-main.jpg"
 ---

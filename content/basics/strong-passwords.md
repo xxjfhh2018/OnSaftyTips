@@ -3,7 +3,6 @@ title: Strong Password Basics
 description: Quick wins to make every account harder to break into.
 date: 2024-12-01
 author: OnSafetyTip Team
-category: basics
 thumbnail: /images/placeholder-thumb.svg
 featuredImage: /images/placeholder-featured.svg
 ---

@@ -88,7 +88,7 @@ export default function BasicPage() {
         <p className={paragraphStyle}>
           Online safety is the practice of protecting yourself on the internet—keeping accounts secure, avoiding scams,
           and controlling what personal information you share. For a short definition to share, see{" "}
-          <a className="text-brand-orange font-semibold" href="/basic/online-safety-definition/">Online Safety Definition (Simple Explanation)</a>.
+          <a className="text-brand-orange font-semibold" href="/basic/online-safety-definition.md">Online Safety Definition (Simple Explanation)</a>.
         </p>
         <p className={subheadingClass}>What online safety includes (privacy, accounts, devices, behavior)</p>
         <ul style={listStyle}>
